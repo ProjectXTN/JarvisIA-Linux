@@ -1,0 +1,53 @@
+# === CORE (Voice, TTS, VAD, Transcription) ===
+openai-whisper
+edge-tts
+webrtcvad
+pyttsx3
+pyaudio
+speechrecognition
+sounddevice
+numpy
+scipy
+
+# === TEXT-TO-SPEECH (Linux Piper) ===
+piper-tts
+
+# === COMPUTER VISION ===
+Pillow
+opencv-python
+torch
+torchvision
+torchaudio
+
+# === SYSTEM AUTOMATION AND CONTROL ===
+keyboard
+pyautogui
+pyperclip
+
+# === WEB SCRAPING + SEARCH ===
+requests
+beautifulsoup4
+
+# === DATABASE ===
+sqlite-utils
+
+# === GUI (Graphical Interface) ===
+tk
+
+# === EMOTIONAL ANALYSIS (Voice or Text Reflection) ===
+pyAudioAnalysis
+matplotlib
+scikit-learn
+
+# === UTILITIES ===
+regex
+tqdm
+python-dotenv
+# pywin32  # Uncomment if running on Windows
+
+# === DEVELOPMENT TOOLS ===
+jsbeautifier
+
+# === LLM MODELS (External setup) ===
+# LLaMA 3.3 and LLaMA 3.2 Vision through Ollama (separate installation):
+# https://ollama.com/
