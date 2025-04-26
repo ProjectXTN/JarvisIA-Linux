@@ -10,11 +10,15 @@ VISION_MODELS = ["llama3.2-vision:90b", "llama3.2", "llama3.3"]
 
 # Detecta o sistema operacional
 def detectar_ollama_host():
+    host = os.getenv("OLLAMA_HOST")
+    if host:
+        return host
     sistema = platform.system()
     if sistema == "Windows":
         return "http://localhost:11434"
     else:
-        return os.getenv("OLLAMA_HOST", "http://10.0.2.2:11434")
+        return "http://10.0.2.2:11434"
+
 
 OLLAMA_HOST = detectar_ollama_host()
 

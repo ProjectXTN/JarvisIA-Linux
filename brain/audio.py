@@ -106,7 +106,7 @@ def listen():
     silence_counter = 0
 
     try:
-        stream = sd.InputStream(device=1, samplerate=fs, channels=1, dtype='int16', blocksize=frame_size)
+        stream = sd.InputStream(samplerate=fs, channels=1, dtype='int16', blocksize=frame_size)
         stream.start()
 
         while True:

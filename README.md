@@ -152,7 +152,7 @@ ollama serve
 
     Set the proper OLLAMA_HOST inside your Ubuntu VM if needed:
 
-export OLLAMA_HOST="http://<your_windows_ip>:11434"
+export OLLAMA_HOST="http://<your_windows_ip>:11500"
 
 (Jarvis detects it automatically if configured.)
 🔒 Lock System
@@ -170,8 +170,6 @@ You can stop active interaction by saying:
 
 Jarvis will return to passive wake-word listening.
 📈 Performance Tips
-
-    Use Whisper.cpp on Linux to optimize transcription speed if no GPU.
 
     Increase VM CPU cores and RAM for better real-time performance.
 
